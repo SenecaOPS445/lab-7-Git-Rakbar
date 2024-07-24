@@ -1,0 +1,38 @@
+test_0 (__main__.lab7a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for file creation: ./lab7a.py ... ok
+test_1 (__main__.lab7a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for file creation: ./lab7a1.py ... ok
+test_a (__main__.lab7a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for errors running: ./lab7a1.py ... ok
+test_a1 (__main__.lab7a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for correct shebang line: ./lab7a1.py ... ok
+test_a_instantiate_class_0 (__main__.lab7a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for Creating object - should fail with 4 arguments ... ok
+test_a_instantiate_class_1 (__main__.lab7a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for Creating object - should fail with string arguments ... ok
+test_b1_sum_times (__main__.lab7a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for sum_times() - should provide the correct output ... ok
+test_b2_sum_times (__main__.lab7a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for sum_times() - should provide the correct output ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.011s
+
+OK
+test_0 (__main__.lab7b)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for file creation: ./lab7b.py ... ok
+test_a1 (__main__.lab7b)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for correct shebang line: ./lab7b.py ... ok
+test_a_instantiate_class_0 (__main__.lab7b)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for Creating object - should fail with 4 arguments ... ok
+test_a_instantiate_class_1 (__main__.lab7b)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for Creating object - should fail with string arguments ... ok
+test_b1_change_time (__main__.lab7b)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for change_time() with +1800 seconds ... ok
+test_b2_change_time (__main__.lab7b)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for change_time() with -1800 seconds ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
