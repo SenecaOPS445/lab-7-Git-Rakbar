@@ -108,3 +108,14 @@ test_b3_operator_overloading (__main__.lab7f)
 Ran 4 tests in 0.000s
 
 OK
+test_0 (__main__.lab7i)
+[Lab 7] - [Investigation 3] - [Part 3] - Local/Global Scope - Test for file creation: ./lab7i.py ... ok
+test_b1_run (__main__.lab7i)
+[Lab 7] - [Investigation 3] - [Part 3] - Global scope - Test for successful execution: ./lab7i.py ... ok
+test_b2_run (__main__.lab7i)
+[Lab 7] - [Investigation 3] - [Part 3] - Global scope - Test for correct output: ./lab7i.py ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.019s
+
+OK
