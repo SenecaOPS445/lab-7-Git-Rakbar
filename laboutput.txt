@@ -95,3 +95,16 @@ test_b4_repr (__main__.lab7e)
 Ran 5 tests in 0.002s
 
 OK
+test_0 (__main__.lab7f)
+[Lab 7] - [Investigation 2] - [Part 3] - Operator overloading - Test for file creation: ./lab7f.py ... ok
+test_b1_import (__main__.lab7f)
+[Lab 7] - [Investigation 2] - [Part 3] - Test for importing ./lab7f.py ... ok
+test_b2_create_object (__main__.lab7f)
+[Lab 7] - [Investigation 2] - [Part 3] - Test for creating time object in ./lab7f.py ... ok
+test_b3_operator_overloading (__main__.lab7f)
+[Lab 7] - [Investigation 2] - [Part 3] - Test for operator overloading for + in ./lab7f.py ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
