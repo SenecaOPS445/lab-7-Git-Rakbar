@@ -16,41 +16,49 @@ def format_time(t):
 
 def sum_times(t1, t2):
     """Add two time objests and return the sum."""
-    sum = Time(0,0,0)
-    sum.hour = t1.hour + t2.hour
-    sum.minute = t1.minute + t2.minute
-    sum.second = t1.second + t2.second
 
-    # check for second attribute and carry over if necessary
-    while sum.second >= 60:
-        sum.minute += 1
-        sum.second -= 60
+    # sum = Time(0,0,0)
+    # sum.hour = t1.hour + t2.hour
+    # sum.minute = t1.minute + t2.minute
+    # sum.second = t1.second + t2.second
 
-    # check for minute attribute and carry over if necessary
-    while sum.minute >= 60:
-        sum.hour += 1
-        sum.minute -= 60
-        
+    # # check for second attribute and carry over if necessary
+    # while sum.second >= 60:
+    #     sum.minute += 1
+    #     sum.second -= 60
 
-    return sum
+    # # check for minute attribute and carry over if necessary
+    # while sum.minute >= 60:
+    #     sum.hour += 1
+    #     sum.minute -= 60
+    times1 = time_to_sec(t1)
+    times2 = time_to_sec(t2)
+    times_sum = times1 + times2  
+
+    return sec_to_time(times_sum)
 
 
 def change_time(time, seconds):
-    time.second += seconds
-    if valid_time(time) != True:
-        while time.second >= 60:
-             time.second -= 60
-             time.minute +=1
-        while time.minute >= 60:
-             time.minute -= 60
-             time.hour += 1
-        while time.second < 0:
-            time.second += 60
-            time.minute -= 1
-        while time.minute < 0:
-            time.minute += 60
-            time.hour -= 1
-    return None
+    # time.second += seconds
+    # if valid_time(time) != True:
+    #     while time.second >= 60:
+    #          time.second -= 60
+    #          time.minute +=1
+    #     while time.minute >= 60:
+    #          time.minute -= 60
+    #          time.hour += 1
+    #     while time.second < 0:
+    #         time.second += 60
+    #         time.minute -= 1
+    #     while time.minute < 0:
+    #         time.minute += 60
+    #         time.hour -= 1
+
+    ctime = time_to_sec(time)
+    ctime_add = ctime + seconds
+    time_changed = sec_to_time(ctime_add)
+
+    return time_changed
 
 
 

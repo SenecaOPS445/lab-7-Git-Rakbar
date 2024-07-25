@@ -36,3 +36,22 @@ test_b2_change_time (__main__.lab7b)
 Ran 6 tests in 0.001s
 
 OK
+test_0 (__main__.lab7c)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for file creation: ./lab7c.py ... ok
+test_1 (__main__.lab7c)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for file creation: ./lab7c1.py ... ok
+test_a (__main__.lab7c)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for errors running: ./lab7c1.py ... ok
+test_a_instantiate_class_0 (__main__.lab7c)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for Creating object - should fail with 4 arguments ... ok
+test_a_instantiate_class_1 (__main__.lab7c)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for Creating object - should fail with string arguments ... ok
+test_b1_time_to_sec (__main__.lab7c)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for time_to_sec() function in ./lab7c.py ... ok
+test_b2_sec_to_time (__main__.lab7c)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for sec_to_time() function in .lab7c.py ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.021s
+
+OK
