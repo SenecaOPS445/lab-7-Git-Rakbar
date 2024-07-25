@@ -55,3 +55,28 @@ test_b2_sec_to_time (__main__.lab7c)
 Ran 7 tests in 0.021s
 
 OK
+test_0 (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for file creation: ./lab7d.py ... ok
+test_a_instantiate_class_0 (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for Creating object in ./lab7d.py - should fail with 4 arguments ... ok
+test_a_instantiate_class_1 (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for Creating object in ./lab7d.py - should fail with string arguments ... ok
+test_b1_time_to_sec (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for time_to_sec() method in ./lab7d.py ... ok
+test_b2_format_time (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for format_time() method in ./lab7d.py ... ok
+test_b3_sum_times (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for sum_times() method in ./lab7d.py ... ok
+test_b4_change_time (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for change_time() method in ./lab7d.py ... ok
+test_b5_valid_time (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for invalid time using valid_time() method in ./lab7d.py ... ok
+test_b6_valid_time (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for valid time using valid_time() method in ./lab7d.py ... ok
+test_b7_sec_to_time (__main__.lab7d)
+[Lab 7] - [Investigation 2] - [Part 1] - Test for sec_to_time() function in ./lab7d.py ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.011s
+
+OK
