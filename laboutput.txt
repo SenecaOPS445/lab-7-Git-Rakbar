@@ -80,3 +80,18 @@ test_b7_sec_to_time (__main__.lab7d)
 Ran 10 tests in 0.011s
 
 OK
+test_0 (__main__.lab7e)
+[Lab 7] - [Investigation 2] - [Part 2] - Special object methods - Test for file creation: ./lab7e.py ... ok
+test_b1_import (__main__.lab7e)
+[Lab 7] - [Investigation 2] - [Part 2] - Test for importing ./lab7e.py ... ok
+test_b2_create_object (__main__.lab7e)
+[Lab 7] - [Investigation 2] - [Part 2] - Test for creating time object in ./lab7e.py ... ok
+test_b3_str (__main__.lab7e)
+[Lab 7] - [Investigation 2] - [Part 2] - Test for __str__ method in ./lab7e.py ... ok
+test_b4_repr (__main__.lab7e)
+[Lab 7] - [Investigation 2] - [Part 2] - Test for __repr__ method in ./lab7e.py ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
